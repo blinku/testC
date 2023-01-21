@@ -1,7 +1,7 @@
 
 all : 
-	gcc test.c -o testC
+	gcc -save-temps test.c -o testC
 
 clean : 
-	rm testC
+	rm testC *.s *.o *.bc
 
