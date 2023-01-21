@@ -553,5 +553,6 @@ extern int __vsnprintf_chk (char * restrict, size_t, int, size_t,
 int main(){
  printf("1");
  fprintf(__stdoutp, "2");
- return 1;
+
+ return 0;
 }
